@@ -1,5 +1,8 @@
-# RISC-V coursework: recovered sources
+# RISC-V Computer Architecture Coursework
 
-Partial archive of Game of Life RISC-V assembly and simulation working files. Multiple assembly revisions are preserved. The complete FPGA CPU/ALU/RAM/peripheral design described in the CV was not located in this search; this repository must not be presented as that complete hardware project. Some simulation files may be unfinished. No hardware validation was performed.
+EPFL computer architecture coursework (2025), written in RISC-V assembly and SystemVerilog.
 
-Prepared for private archival. Retain course/template attribution; public sharing permissions have not been established.
+- `Game Of Life/`: Conway's Game of Life in RISC-V assembly for the course's memory-mapped LED/button platform. The final version is `GameOfLife_final.s`; the other files are earlier iterations and the course template.
+- `Comparch/`: SystemVerilog simulation work (`lu.sv`, testbench `tb.sv`), a linker script for memory-mapped I/O, and a Docker/Makefile toolchain setup.
+
+This repository holds the recovered software and simulation sources only. The full FPGA processor design is not included.
